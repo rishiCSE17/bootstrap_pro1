@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Hello World</title>
+
+    <link rel="stylesheet"
+            href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.1/css/bootstrap.min.css"
+            integrity="sha384-VCmXjywReHh4PwowAiWNagnWcLhlEJLA5buUprzK8rxFgeH0kww/aWY76TfkUoSX"
+            crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.1/js/bootstrap.min.js"
+            integrity="sha384-XEerZL0cuoUbHE4nZReLT7nx9gQrQreJekYhJD9WNWhH8nEW+0c5qq7aIo2Wl30J"
+            crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+            integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+            crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+            integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+            crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="container-fluid">
+       <h1>3 columns layouts</h1>
+        <div class="row">
+            <div class="col-md-4" style="background-color:#FF0000">RED</div>
+            <div class="col-md-4" style="background-color:#00FF00">GREEN</div>
+            <div class="col-md-4" style="background-color:#0000FF">BLUE</div>
+        </div>
+
+        <br>
+
+        <div class="row"><div class="col-md">
+            <h4>this is an example of <mark>highlighting a test using mark </mark> tag <br></h4>
+        </div></div>
+
+        <br>
+
+        <div class="row"><div class="col-md">
+            <h4> Quote </h4>
+            <blockquote>
+                <p> Life of a developer is an Eat-Sleep-Code cycle... </p>
+                <footer> myself </footer>
+            </blockquote>
+        </div></div>
+
+        <br>
+
+        <div class="row"><div class="col-md-4">
+            <h4>A list of devices I have</h4>
+            <dl>
+                <dt> laptops </dt>
+                    <dd>- samsung n350</dd>
+                    <dd>- samsung n150</dd>
+                    <dd>- Recoil 3</dd>
+                <dt>Tablets </dt>
+                    <dd>- Lenovo yoga 3</dd>
+                    <dd>- ipad 9.7</dd>
+            </dl>
+        </div></div>
+
+        <br>
+
+        <div class="row"><div class="col-md">
+            this command <code>sh ip int br | ex unass</code> shows interface status of a cisco devices with IP address.
+
+             <br>
+
+            <h4> multi line code block </h4>
+            <pre>
+                # plotting a curve
+                import matplotlib.pyplot as plt
+
+                def main():
+                    x = [1,2,3,4]
+                    y = [2,4,8,16]
+                    plt.plot(x,y,'ro:', label='quadratic rate')
+                    plt.show()
+
+                main()
+            </pre>
+        </div></div>
+
+        <br>
+
+        <div class="row"><div class="col-md">
+            <h4>KBD : keyboard input</h4>
+            press <kbd>Ctrl+z</kbd> to undo
+        </div></div>
+
+        <br>
+
+         <div class="row">
+             <div class="col-md-6">
+                <h4>text fashion fg</h4>
+                 <p class="text-muted"> this text is muted </p>
+                 <p class="text-sucess"> this is a successful text </p>
+                 <p class="text-danger"> this is a error text</p>
+             </div>
+
+             <div class="col-md-6">
+                 <h4>text fashion bg</h4>
+                 <p class="bg-muted"> this text is muted </p>
+                 <p class="bg-success"> this is a successful text </p>
+                 <p class="bg-danger"> this is a error text</p>
+            </div>
+         </div>
+
+        <br>
+        <h4>Table</h4>
+        <div class="row"><div class="col-md-4">
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>name</th>
+                        <th>age</th>
+                        <th>salary</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Abc</td> <td>30</td> <td>15000</td>
+                    </tr>
+                    <tr>
+                        <td>Pqr</td> <td>35</td> <td>45000</td>
+                    </tr>
+                    <tr>
+                        <td>xyz</td> <td>48</td> <td>160000</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="col-md-4">
+        <table class="table-condensed">
+                <thead>
+                    <tr>
+                        <th>name</th>
+                        <th>age</th>
+                        <th>salary</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Abc</td> <td>30</td> <td>15000</td>
+                    </tr>
+                    <tr>
+                        <td>Pqr</td> <td>35</td> <td>45000</td>
+                    </tr>
+                    <tr>
+                        <td>xyz</td> <td>48</td> <td>160000</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="col-md-4">
+        <table class="table-striped">
+                <thead>
+                    <tr>
+                        <th>name</th>
+                        <th>age</th>
+                        <th>salary</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Abc</td> <td>30</td> <td>15000</td>
+                    </tr>
+                    <tr>
+                        <td>Pqr</td> <td>35</td> <td>45000</td>
+                    </tr>
+                    <tr>
+                        <td>xyz</td> <td>48</td> <td>160000</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div></div>
+
+
+
+    </div>
+</body>
+</html>
